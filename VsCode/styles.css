@@ -4,15 +4,17 @@
 }
 body {
   color: white;
-  background: black;
+  background: rgb(0, 3, 12);
   margin: 1px;
 }
 
 header {
   border-bottom: solid 2px rgb(209 167 96);
   padding: 20px;
-  font-size: 32px;
-  color: rgb(209 167 96);
+  font-size: 43px;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgb(209 167 96);
   font-weight: bold;
   font-size: 40;
   font-family: Jujutsu;
@@ -38,8 +40,13 @@ header {
   margin-right: 7%;
 }
 
-h1 {
-  font-size: 40px;
+.title {
+    color: black;
+    font-size: 30;
+    font-family: Jujutsu;
+    border-bottom: solid 2px rgb(209 167 96);
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: white;
 }
 
 img {
