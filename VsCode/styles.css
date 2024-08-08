@@ -49,6 +49,16 @@ header {
     -webkit-text-stroke-color: white;
 }
 
+.resumos {
+  margin-left: 100;
+}
+
+.inicio {
+  background-image: url(images/Yuji_Itadori_SJ_2020-43-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
 img {
   width: 130;
   opacity: 0.5;
@@ -63,5 +73,3 @@ img:hover {
   margin-right: 700;
 }
 
-  margin-right: 700;
-}
