@@ -6,6 +6,7 @@ body {
   color: white;
   background: rgb(0, 3, 12);
   margin: 1px;
+  margin-bottom: 100px;
 }
 
 header {
@@ -49,6 +50,16 @@ header {
   -webkit-text-stroke-color: white;
 }
 
+.barra-title {
+  font-size: 43;
+  font-family: Jujutsu;
+  border-bottom: solid 2px rgb(209 167 96);
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgb(209 167 96);
+
+}
+
 .resumos {
   margin-left: 100;
 }
@@ -59,7 +70,7 @@ header {
   background-position: right center;
 }
 
-img {
+.sites {
   width: 130;
   opacity: 0.5;
 }
@@ -103,4 +114,19 @@ img:hover {
 
 .resumos {
   margin-right: 700;
+}
+
+.barra-videos {
+  height: 200px;
+  opacity: 0.5;
+}
+
+.psicologia {
+  background-color: rgb(0, 3, 12);
+}
+
+.barra {
+  display:flex;
+  overflow-x: auto;
+  gap: 20px;
 }
